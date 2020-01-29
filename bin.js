@@ -18,9 +18,9 @@ async function main () {
     return console.log(require('./package.json').version)
   }
 
-  const data = argv.data || `Test content created on ${new Date()}`
-  const apiAddr = argv['api-addr'] || DEFAULT_API_ADDR
-  const bootstrapAddr = argv['bootstrap-addr'] || DEFAULT_BOOTSTRAP_ADDR
+  const data = argv.data || argv.d || `Test content created on ${new Date()}`
+  const apiAddr = argv['api-addr'] || argv.a || DEFAULT_API_ADDR
+  const bootstrapAddr = argv['bootstrap-addr'] || argv.b || DEFAULT_BOOTSTRAP_ADDR
 
   console.log(`🌎 Using preloader API Address: ${apiAddr}`)
   if (apiAddr === DEFAULT_API_ADDR) {
@@ -46,9 +46,9 @@ async function main () {
   }
 
   if (result) {
-    console.log('🥳 This preloader is working as expected')
+    console.log(Chalk.green('🥳 This preloader is working as expected'))
   } else {
-    console.log('😭 This preloader is NOT working as expected')
+    console.log(Chalk.red('😭 This preloader is NOT working as expected'))
   }
 }
 
