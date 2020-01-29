@@ -47,7 +47,7 @@ exports.run = async ({ data, apiAddr, bootstrapAddr }) => {
     return hash
   }, { data, apiAddr, bootstrapAddr })
 
-  log('Added CID', dataCid)
+  log('Received CID from browser node:', dataCid)
 
   log('Creating in process IPFS node...')
 

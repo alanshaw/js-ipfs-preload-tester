@@ -73,7 +73,7 @@ $ DEBUG=ipfs-preload-test* npm start
   ipfs-preload-tester:runner:browser Creating in browser IPFS node... +0ms
   ipfs-preload-tester:runner:browser Swarm listening on /p2p-circuit/ipfs/QmUCvZY66rJn5pFBmfnPNfjTm86ZupRpUdBitzzFJQNoR1 +470ms
   ipfs-preload-tester:runner:browser Adding data: "Test content created on Wed Jan 29 2020 12:38:10 GMT+0000 (Greenwich Mean Time)" +30ms
-  ipfs-preload-tester:runner Added CID QmZKxxcFteTgMBH2kzJe3GMrMhRbj6QYPLhmHuiUU3v9mM +1s
+  ipfs-preload-tester:runner Received CID from browser node: QmZKxxcFteTgMBH2kzJe3GMrMhRbj6QYPLhmHuiUU3v9mM +1s
   ipfs-preload-tester:runner Creating in process IPFS node... +0ms
 Swarm listening on /ip4/127.0.0.1/tcp/4002
 Swarm listening on /ip4/192.168.1.209/tcp/4002
