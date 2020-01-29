@@ -36,13 +36,13 @@ The _optional_ CLI args `--api-addr` and `--bootstrap-addr` allow you to specify
 Expect to see output like this for a successful run:
 
 ```console
-$ npm start -- --api-addr=/dns4/node1.preload.ipfs.io/https --bootstrap-addr=/dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/QmZMxNdpMkewiVZLMRxaNxUeZpDUb34pWjZ1kZvsd16Zic
+$ npm start -- --api-addr=/dns4/node1.preload.ipfs.io/https --bootstrap-addr=/dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/Qmbut9Ywz9YEDrz8ySBSgWyJk41Uvm2QJPhwDJzJyGFsD6
 
 > js-ipfs-preload-tester@0.0.0 start /Users/alan/Code/pl/ipfs/js-ipfs-preload-tester
-> node bin "--api-addr=/dns4/node1.preload.ipfs.io/https" "--bootstrap-addr=/dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/QmZMxNdpMkewiVZLMRxaNxUeZpDUb34pWjZ1kZvsd16Zic"
+> node bin "--api-addr=/dns4/node1.preload.ipfs.io/https" "--bootstrap-addr=/dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/Qmbut9Ywz9YEDrz8ySBSgWyJk41Uvm2QJPhwDJzJyGFsD6"
 
 🌎 Using preloader API Address: /dns4/node1.preload.ipfs.io/https
-🥾 Using preloader Bootstrap Address: /dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/QmZMxNdpMkewiVZLMRxaNxUeZpDUb34pWjZ1kZvsd16Zic
+🥾 Using preloader Bootstrap Address: /dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/Qmbut9Ywz9YEDrz8ySBSgWyJk41Uvm2QJPhwDJzJyGFsD6
 💾 Data that will be used in the test: "Test content created on Wed Jan 29 2020 12:33:50 GMT+0000 (Greenwich Mean Time)"
 🏃‍♀️ Running the test...
 Swarm listening on /ip4/127.0.0.1/tcp/4002
