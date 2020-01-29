@@ -1,0 +1,10 @@
+Sanity check a preload server is working as expected.
+
+Usage: ipfs-preload-tester [options...]
+
+Options:
+  -a, --api-addr        Multiaddr of preloader HTTP API
+  -b, --bootstrap-addr  Multiaddr of preloader node, including peer ID
+  -v, --version         Print version number and exit.
+  -h, --help            Print this message and exit.
+  -u, --usage           Print this message and exit.
