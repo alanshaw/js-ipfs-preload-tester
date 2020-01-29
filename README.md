@@ -41,9 +41,7 @@ $ npm start -- --api-addr=/dns4/node1.preload.ipfs.io/https --bootstrap-addr=/dn
 > node bin "--api-addr=/dns4/node1.preload.ipfs.io/https" "--bootstrap-addr=/dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/QmZMxNdpMkewiVZLMRxaNxUeZpDUb34pWjZ1kZvsd16Zic"
 
 🌎 Using preloader API Address: /dns4/node1.preload.ipfs.io/https
-(Use --api-addr arg to change)
 🥾 Using preloader Bootstrap Address: /dns4/node1.preload.ipfs.io/tcp/443/wss/p2p/QmZMxNdpMkewiVZLMRxaNxUeZpDUb34pWjZ1kZvsd16Zic
-(Use --bootstrap-addr arg to change)
 💾 Data that will be used in the test: "Test content created on Wed Jan 29 2020 12:33:50 GMT+0000 (Greenwich Mean Time)"
 🏃‍♀️ Running the test...
 Swarm listening on /ip4/127.0.0.1/tcp/4002
