@@ -15,7 +15,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "debug": "^4.1.1",
-    "ipfs": "github:ipfs/js-ipfs",
+    "ipfs": "^0.43.3",
     "puppeteer": "^2.1.0"
   }
 }
